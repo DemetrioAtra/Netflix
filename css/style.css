@@ -1,0 +1,123 @@
+
+    /*Variáveis*/
+
+:root {
+    --margin-left: 54px;
+    --button-height: 46px;
+    --button-f-size: 20px;
+    --red: #E50914;
+}
+
+    /*Elementos base*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+body {
+    background: #141414;
+}
+
+    /*Background*/
+
+.background-image {
+    background: url(/img/vingadores-capa.jpg) no-repeat;
+    background-size: cover;
+}
+
+    /*Header*/
+
+.header_container {
+    margin-left: var(--margin-left);
+    margin-top: 19.5px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.netflix_logo {
+    width: 150px;
+    font-family: 'Times New Roman', Times;
+    color: var(--red);
+}
+
+nav a {
+    margin-right: 14px;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+nav a:nth-child(1) {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #AAA;
+}
+
+    /*Main*/
+
+.main_container {
+    margin-left: var(--margin-left);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 630px;
+}
+
+.main_release {
+    width: 34%;
+}
+
+.main_release h3 {
+    font-size: 65px;
+}
+
+.main_release p {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.main_release i {
+    margin-right: 14px;
+}
+
+.play-film i {
+    color: black;
+}
+
+.play-film {
+    margin-top: 25px;
+    width: 150px;
+    height: var(--button-height);
+    font-size: var(--button-f-size);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    background-color: #ffffff;
+}
+
+.film-info {
+    margin-left: 10px;
+    width: 240px;
+    height: var(--button-height);
+    font-size: var(--button-f-size);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, .60);
+}
+
+.play-film:hover {
+    background-color: #dadada
+}
+
+.film-info:hover {
+    background-color: rgba(128, 128, 128, .30);
+}
