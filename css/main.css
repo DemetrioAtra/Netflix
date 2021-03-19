@@ -5,7 +5,6 @@
     --margin-left: 54px;
     --button-height: 46px;
     --button-f-size: 20px;
-    --red: #E50914;
 }
 
     /*Elementos base*/
@@ -42,7 +41,7 @@ body {
 .netflix_logo {
     width: 150px;
     font-family: 'Times New Roman', Times;
-    color: var(--red);
+    color: #E50914;
 }
 
 nav a {
@@ -121,3 +120,6 @@ nav a:hover {
 .film-info:hover {
     background-color: rgba(128, 128, 128, .30);
 }
+
+    /*Carrossel*/
+
