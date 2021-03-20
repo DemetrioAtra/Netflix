@@ -1,0 +1,42 @@
+@media screen and (max-width: 900px) {
+    .header_container nav {
+        display: none;
+    }
+
+    .main_container {
+        width: 80%;
+        height: 293px;
+    }
+
+    .main_container h3 {
+        font-size: 38px;
+    }
+
+    .main_container p {
+        font-size: 8px;
+        height: 40px;
+    }
+
+    .main_release {
+        margin-bottom: 3%;
+        width: 59%;
+    }
+
+    .play-film {
+        width: 125px;
+        height: 34px;
+        font-size: 18px;
+    }
+
+    .film-info {
+        width: 210px;
+        height: 34px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main_container p {
+        font-size: 12px;
+    }
+}

@@ -2,7 +2,7 @@
     /*Variáveis*/
 
 :root {
-    --margin-left: 54px;
+    --margin-left: 4%;
     --button-height: 46px;
     --button-f-size: 20px;
 }
@@ -26,13 +26,14 @@ body {
 .background-image {
     background: url(/img/vingadores-capa.jpg) no-repeat;
     background-size: cover;
+    border: 0.1px solid transparent;
 }
 
     /*Header*/
 
 .header_container {
     margin-left: var(--margin-left);
-    margin-top: 19.5px;
+    margin-top: 1%;
     display: flex;
     align-items: center;
     font-size: 16px;
@@ -65,20 +66,20 @@ nav a:hover {
     margin-top: 10px;
     display: flex;
     align-items: center;
-    width: 93%;
+    width: 92%;
     height: 630px;
 }
 
 .main_release {
-    width: 34%;
+    width: 40%;
 }
 
 .main_release h3 {
-    font-size: 65px;
+    font-size: 60px;
 }
 
 .main_release p {
-    margin-top: 10px;
+    margin-top: 1%;
     font-size: 24px;
 }
 
@@ -91,7 +92,7 @@ nav a:hover {
 }
 
 .play-film {
-    margin-top: 25px;
+    margin-top: 6%;
     width: 150px;
     height: var(--button-height);
     font-size: var(--button-f-size);
