@@ -92,7 +92,7 @@ nav a:hover {
 }
 
 .play-film {
-    margin-top: 6%;
+    margin-top: 4.5%;
     width: 150px;
     height: var(--button-height);
     font-size: var(--button-f-size);
@@ -122,5 +122,9 @@ nav a:hover {
     background-color: rgba(128, 128, 128, .30);
 }
 
-    /*Carrossel*/
-
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
